@@ -80,9 +80,6 @@
     <ClInclude Include="Enum.h">
       <Filter>98.Headers</Filter>
     </ClInclude>
-    <ClInclude Include="DEFAULT_MGR.h">
-      <Filter>98.Headers</Filter>
-    </ClInclude>
     <ClInclude Include="CPracticeMgr.h">
       <Filter>97.DesignPattern</Filter>
     </ClInclude>
@@ -91,6 +88,15 @@
     </ClInclude>
     <ClInclude Include="CHashMap.h">
       <Filter>03.DataStructure\00.CHashMap</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFAULT_MGR.h">
+      <Filter>97.DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileMgr.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CINIMgr.h">
+      <Filter>98.Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
