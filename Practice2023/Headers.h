@@ -22,12 +22,17 @@
 
 #include <tuple>
 
+
 #if UNICODE 
 using TString = std::wstring;
+using tifstream = std::wifstream;
+using tofstream = std::wofstream;
 #define tcout  wcout
 #define tcin  wcin
 #else
 using TString = std::string;
+using tifstream = std::ifstream;
+using tofstream = std::ofstream;
 #define tcout  cout
 #define tcin  cin
 #endif;

@@ -22,7 +22,7 @@ int CPractice::Execute()
 void CPractice::Initialize(void) noexcept
 {
 	InitFunc();
-	InitSelectedFunc();
+	InitPracticeFunc();
 }
 
 void CPractice::InitFunc(void)
@@ -30,7 +30,7 @@ void CPractice::InitFunc(void)
 
 }
 
-void CPractice::InitSelectedFunc(void)
+void CPractice::InitPracticeFunc(void)
 {
 }
 
