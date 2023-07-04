@@ -7,26 +7,35 @@ CPractice_1::CPractice_1()
 
 CPractice_1::~CPractice_1()
 {
-	Release();
 }
 
-void CPractice_1::Initialize() noexcept
+void CPractice_1::Initialize(void) noexcept
 {
-
 }
 
-int CPractice_1::Update()
+void CPractice_1::InitFunc(void)
 {
+}
 
+void CPractice_1::InitSelectedFunc(void)
+{
+}
+
+void CPractice_1::Render(void) noexcept
+{
+}
+
+void CPractice_1::Render(const void* _p_void)
+{
+}
+
+int CPractice_1::Update(int _event)
+{
 	return 0;
 }
 
-void CPractice_1::Render() noexcept
+void CPractice_1::Release(void) noexcept
 {
-
 }
 
-void CPractice_1::Release() noexcept
-{
-	m_map_func.clear();
-}
+

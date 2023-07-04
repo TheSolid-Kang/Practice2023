@@ -20,6 +20,8 @@
 
 #include <type_traits>
 
+#include <tuple>
+
 #if UNICODE 
 using TString = std::wstring;
 #define tcout  wcout
