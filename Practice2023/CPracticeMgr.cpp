@@ -28,3 +28,8 @@ void CPracticeMgr::SetPractice(const int& _practiceNum ) noexcept
 		break;
 	}
 }
+int CPracticeMgr::Execute()
+{
+	return (*m_pPractice).Execute();
+}
+
