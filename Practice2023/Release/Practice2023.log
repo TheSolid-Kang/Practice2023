@@ -1,0 +1,10 @@
+﻿  CPractice_1.cpp
+C:\TAEKYUNG\Dev\CPP\Practice2023\Practice2023\CFileMgr.h(120,1): warning C4229: 오래된 구문을 사용했습니다. 데이터의 한정자가 무시됩니다.
+  main.cpp
+C:\TAEKYUNG\Dev\CPP\Practice2023\Practice2023\CFileMgr.h(120,1): warning C4229: 오래된 구문을 사용했습니다. 데이터의 한정자가 무시됩니다.
+  코드를 생성하고 있습니다.
+  0 of 1184 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Practice2023.vcxproj -> C:\TAEKYUNG\Dev\CPP\Practice2023\Release\Practice2023.exe

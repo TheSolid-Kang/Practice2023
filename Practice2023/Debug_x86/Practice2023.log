@@ -1,0 +1,10 @@
+﻿  CHashMap.cpp
+  CPractice.cpp
+  CPracticeMgr.cpp
+  CPractice_1.cpp
+C:\TAEKYUNG\Dev\CPP\Practice2023\Practice2023\CFileMgr.h(120,1): warning C4229: 오래된 구문을 사용했습니다. 데이터의 한정자가 무시됩니다.
+  main.cpp
+C:\TAEKYUNG\Dev\CPP\Practice2023\Practice2023\CFileMgr.h(120,1): warning C4229: 오래된 구문을 사용했습니다. 데이터의 한정자가 무시됩니다.
+  RansomwareTracer.cpp
+  코드를 생성하고 있습니다...
+  Practice2023.vcxproj -> C:\TAEKYUNG\Dev\CPP\Practice2023\Debug_x86\Practice2023.exe
