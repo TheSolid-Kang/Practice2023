@@ -7,9 +7,16 @@
 
 
 const int EXIT = 99;
+HANDLE hMutex = NULL;
+bool IsRun(); 
 void PrintTitle(void);
 
 int main() {
+	//::ReleaseMutex(hMutex);
+	if (true == IsRun()) {//프로그램 실행중인 경우 종료
+		return NULL;
+	}
+
 #if UNICODE
 	//SetConsoleOutputCP(65001);
 	//std::locale::global(std::locale("kor"));
@@ -44,4 +51,26 @@ void PrintTitle(void)
 	system("pause");
 	system("cls");
 	std::for_each(list_title.cbegin(), list_title.cend(), [](auto& _title) {std::tcout << _title << std::endl; });
+}
+
+bool IsRun()
+{
+	TString ProgMutex = CFileMgr::GetEXEFilePath();
+	hMutex = ::CreateMutex(NULL, FALSE, _T("Practice2023"));
+	if (NULL == hMutex) {
+		::MessageBox(NULL, _T("뮤텍스 생성 실패"), _T("알림"), MB_OK);
+		return false;
+	}
+
+	if (ERROR_ALREADY_EXISTS == ::GetLastError()) {
+		::MessageBox(NULL, _T("이미 실행중입니다."), _T("알림"), MB_OK);
+		::CloseHandle(hMutex);
+		hMutex = INVALID_HANDLE_VALUE;
+		::ReleaseMutex(hMutex);
+
+		return true;
+	}
+	else {
+		return false;
+	}
 }
