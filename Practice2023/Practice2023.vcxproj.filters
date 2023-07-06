@@ -98,5 +98,8 @@
     <ClInclude Include="CINIMgr.h">
       <Filter>98.Headers</Filter>
     </ClInclude>
+    <ClInclude Include="StringBuilder.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
