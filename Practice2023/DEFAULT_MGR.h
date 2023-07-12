@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 #ifndef _DEFINE_MGR_H_
 #define _DEFINE_MGR_H_
 

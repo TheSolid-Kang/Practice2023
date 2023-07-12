@@ -101,5 +101,8 @@
     <ClInclude Include="StringBuilder.h">
       <Filter>98.Headers</Filter>
     </ClInclude>
+    <ClInclude Include="StringEditor.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -229,6 +229,7 @@
     <ClInclude Include="Headers.h" />
     <ClInclude Include="RansomwareTracer.h" />
     <ClInclude Include="StringBuilder.h" />
+    <ClInclude Include="StringEditor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,16 +2,17 @@
 #include <string>
 #include <tchar.h>
 
+
+
+class StringBuilder {
 #if UNICODE 
-using TString = std::wstring;
+	using TString = std::wstring;
 #else
-using TString = std::string;
+	using TString = std::string;
 #endif;
 
 #define DEFAULT_CAP 2048
 
-
-class StringBuilder {
 public:
 	StringBuilder() {}
 	StringBuilder(TString::size_type size) : _ScratchSize(size) {}
