@@ -57,4 +57,12 @@ public:
 		}
 		return _str;
 	}
+	template<typename T>
+	static TString ToString(const T& _t) {
+#if UNICODE
+		return std::to_wstring(_t);
+#else
+		return std::to_string(_t);
+#endif;
+	}
 };
