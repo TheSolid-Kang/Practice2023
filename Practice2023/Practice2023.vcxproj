@@ -221,6 +221,7 @@
     <ClInclude Include="CHashMap.h" />
     <ClInclude Include="CINIMgr.h" />
     <ClInclude Include="CIO.h" />
+    <ClInclude Include="CLogger.h" />
     <ClInclude Include="CPractice.h" />
     <ClInclude Include="CPracticeMgr.h" />
     <ClInclude Include="CPractice_1.h" />
