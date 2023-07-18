@@ -20,8 +20,12 @@ int main() {
 #if UNICODE
 	//SetConsoleOutputCP(65001);
 	//std::locale::global(std::locale("kor"));
-	std::locale::global(std::locale(".UTF-8"));
+	//std::locale::global(std::locale(".UTF-8"));
+#else
+	SetConsoleOutputCP(949);
+	//std::locale::global(std::locale());
 #endif
+
 	auto& rInstance = *CPracticeMgr::GetInstance();
 
 	do {
@@ -50,7 +54,7 @@ void PrintTitle(void)
 
 	system("pause");
 	system("cls");
-	std::for_each(list_title.cbegin(), list_title.cend(), [](auto& _title) {std::tcout << _title << std::endl; });
+	std::for_each(list_title.cbegin(), list_title.cend(), [](const TString& _title) {std::tcout << _title << std::endl; });
 }
 
 bool IsRun()

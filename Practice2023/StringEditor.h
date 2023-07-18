@@ -5,7 +5,7 @@
 #include <vector>
 #include <Windows.h>
 #include <sstream>
-
+#include <chrono>
 
 class StringEditor {
 #define DEFAULT_CAP 2048
@@ -60,9 +60,47 @@ public:
 	template<typename T>
 	static TString ToString(const T& _t) {
 #if UNICODE
-		return std::to_wstring(_t);
+		std::wstringstream ss;
+		ss << _t;
+		return ss.str();
+		//return std::to_wstring(_t);
 #else
-		return std::to_string(_t);
+		std::stringstream ss;
+		ss << _t;
+		return ss.str();
+		//return std::to_string(_t);
 #endif;
 	}
+	static TString GetCurTime() {
+		std::chrono::system_clock::time_point beginPoint;
+		beginPoint = std::chrono::system_clock::now();
+		std::time_t begin_time = std::chrono::system_clock::to_time_t(beginPoint);
+
+		TString strBeginTime;
+#if UNICODE
+		std::string str = std::ctime(&begin_time);
+		strBeginTime.assign(str.begin(), str.end());
+#else
+		strBeginTime = std::ctime(&begin_time);
+#endif;
+		size_t index = strBeginTime.find(_T("\n"));
+		if (index) {
+			strBeginTime.erase(index);
+		}
+		return strBeginTime;
+	}
+
+	static TString GetExceptionInfo(std::exception _e) {
+#if UNICODE
+		TCHAR* pStr = nullptr;
+		int size = MultiByteToWideChar(CP_ACP, 0, _e.what(), -1, NULL, NULL);
+		pStr = new TCHAR[size];
+		MultiByteToWideChar(CP_ACP, 0, _e.what(), static_cast<int>(strlen(_e.what()) + 1), pStr, size);
+		TString str = pStr;
+#else
+		TString str = _e.what();
+#endif
+		return str;
+	}
+
 };

@@ -63,6 +63,9 @@
     <ClCompile Include="CHashMap.cpp">
       <Filter>03.DataStructure\00.CHashMap</Filter>
     </ClCompile>
+    <ClCompile Include="CLogger.cpp">
+      <Filter>98.Headers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPractice.h">

@@ -11,10 +11,14 @@ Global
 		Debug_x86|x86 = Debug_x86|x86
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		DebugMutiByte|x64 = DebugMutiByte|x64
+		DebugMutiByte|x86 = DebugMutiByte|x86
 		Release_x86|x64 = Release_x86|x64
 		Release_x86|x86 = Release_x86|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		ReleaseMultiByte|x64 = ReleaseMultiByte|x64
+		ReleaseMultiByte|x86 = ReleaseMultiByte|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.Debug_x86|x64.ActiveCfg = Debug_x86|x64
@@ -25,6 +29,10 @@ Global
 		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.Debug|x64.Build.0 = Debug|x64
 		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.Debug|x86.ActiveCfg = Debug|Win32
 		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.Debug|x86.Build.0 = Debug|Win32
+		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.DebugMutiByte|x64.ActiveCfg = DebugMutiByte|x64
+		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.DebugMutiByte|x64.Build.0 = DebugMutiByte|x64
+		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.DebugMutiByte|x86.ActiveCfg = DebugMutiByte|Win32
+		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.DebugMutiByte|x86.Build.0 = DebugMutiByte|Win32
 		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.Release_x86|x64.ActiveCfg = Release_x86|x64
 		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.Release_x86|x64.Build.0 = Release_x86|x64
 		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.Release_x86|x86.ActiveCfg = Release_x86|Win32
@@ -33,6 +41,10 @@ Global
 		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.Release|x64.Build.0 = Release|x64
 		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.Release|x86.ActiveCfg = Release|Win32
 		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.Release|x86.Build.0 = Release|Win32
+		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.ReleaseMultiByte|x64.ActiveCfg = ReleaseMultiByte|x64
+		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.ReleaseMultiByte|x64.Build.0 = ReleaseMultiByte|x64
+		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.ReleaseMultiByte|x86.ActiveCfg = ReleaseMultiByte|Win32
+		{FC5269E3-6B2F-41B8-BD07-374AC74FE7B6}.ReleaseMultiByte|x86.Build.0 = ReleaseMultiByte|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
