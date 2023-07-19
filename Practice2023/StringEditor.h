@@ -14,6 +14,8 @@ class StringEditor {
 	using tifstream = std::wifstream;
 	using tofstream = std::wofstream;
 	using tistringstream = std::wistringstream;
+	using tstring_view = std::wstring_view;
+	using tstringstream = std::wstringstream;
 #define tcout  wcout
 #define tcin  wcin
 #else
@@ -21,6 +23,8 @@ class StringEditor {
 	using tifstream = std::ifstream;
 	using tofstream = std::ofstream;
 	using tistringstream = std::istringstream;
+	using tstring_view = std::string_view;
+	using tstringstream = std::stringstream;
 #define tcout  cout
 #define tcin  cin
 #endif;
@@ -97,9 +101,12 @@ public:
 		pStr = new TCHAR[size];
 		MultiByteToWideChar(CP_ACP, 0, _e.what(), static_cast<int>(strlen(_e.what()) + 1), pStr, size);
 		TString str = pStr;
+		delete[] pStr;
 #else
 		TString str = _e.what();
 #endif
+		
+
 		return str;
 	}
 
