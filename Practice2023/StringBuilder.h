@@ -20,7 +20,7 @@ private:
 	TString _Main;
 	TString _Scratch;
 
-	TString::size_type _ScratchSize = DEFAULT_CAP;  // ´Ù¸¥ ÀÓÀÇÀÇ ¼ýÀÚ ³Ö¾îµµ µÊ.
+	TString::size_type _ScratchSize = DEFAULT_CAP;  // ï¿½Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾îµµ ï¿½ï¿½.
 
 public:
 	StringBuilder& Append(const TString& str) {
