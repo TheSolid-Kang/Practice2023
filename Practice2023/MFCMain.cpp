@@ -1,46 +1,19 @@
 #ifdef _MY_MFC
-#include <afxwin.h>
-//initiate application program class
-class CMain : public CWinApp
-{
-public:
-	virtual BOOL InitInstance();
-};
-//initiate main window class
-class CMainFrame : public CFrameWnd
-{
-public:
-	CMainFrame();
-	~CMainFrame();
+#include "MFCMain.h"
 
-protected:
-	//fx == function
-	//application framework
-	//tx == treatment
-	//rx == receiver
-	//tx == transfer
-	afx_msg void OnPaint();
-	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
-	DECLARE_MESSAGE_MAP();
-};
+#pragma region CMain //CWinApp
 CMain theApp;
 
 BOOL CMain::InitInstance()
 {
-	m_pMainWnd = new CMainFrame();
-	(*m_pMainWnd).ShowWindow(m_nCmdShow);
+	m_pMainWnd = new CMainFrame();//afxwin.h 에 있는 변수
+	(*m_pMainWnd).ShowWindow(m_nCmdShow);//afxwin.h 에 있는 변수
 	return TRUE;
 }
+#pragma endregion
 
-CMainFrame::CMainFrame()
-{
-	Create(NULL, _T("HellowMFC"));
-}
 
-CMainFrame::~CMainFrame()
-{
-
-}
+#pragma region  CMainFrame // FrameWnd
 void CMainFrame::OnPaint()
 {
 	CPaintDC dc(this);
@@ -51,6 +24,9 @@ void CMainFrame::OnLButtonDown(UINT nFlags, CPoint point)
 {
 	MessageBox(_T("마우스 메시지!"), _T("마우스 메시지"));
 }
+
+#pragma endregion 
+
 BEGIN_MESSAGE_MAP(CMainFrame, CFrameWnd)
 	ON_WM_PAINT()
 	ON_WM_LBUTTONDOWN()

@@ -116,5 +116,8 @@
     <ClInclude Include="CLogger.h">
       <Filter>98.Headers</Filter>
     </ClInclude>
+    <ClInclude Include="MFCMain.h">
+      <Filter>00.main</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
