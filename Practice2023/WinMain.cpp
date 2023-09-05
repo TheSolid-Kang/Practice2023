@@ -23,22 +23,22 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		return 1;
 
 	//윈도우 생성 후 화면에 출력
-	hwnd = CreateWindow(TEXT("Hello Class")
-		, TEXT("Hellow SDK")
-		, WS_OVERLAPPEDWINDOW
-		, CW_USEDEFAULT
-		, CW_USEDEFAULT
-		, CW_USEDEFAULT
-		, CW_USEDEFAULT
-		, NULL
-		, NULL
-		, hInstance
-		, NULL);
+	hwnd = CreateWindow(TEXT("Hello Class") //lpClassName
+		, TEXT("Hellow SDK") //, lpWindowName
+		, WS_OVERLAPPEDWINDOW//, dwStyle
+		, CW_USEDEFAULT//, x
+		, CW_USEDEFAULT//, y
+		, CW_USEDEFAULT//, nWidth
+		, CW_USEDEFAULT//, nHeight 
+		, NULL//, hWndParent
+		, NULL//, hMenu
+		, hInstance//, hInstance
+		, NULL);//, lpParam
 
 	ShowWindow(hwnd, nCmdShow);
 
 
-	//메시지 큐에 담긴 메시지 처리
+	//메시지 큐에 담긴 메시지 하나씩 꺼내서 처리한다.
 	while (GetMessage(&msg, NULL, 0, 0) > 0)
 	{
 		TranslateMessage(&msg);
