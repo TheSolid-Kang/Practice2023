@@ -439,6 +439,7 @@
     <ClCompile Include="CPractice_1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MFCMain.cpp" />
+    <ClCompile Include="MSSQLMgr.cpp" />
     <ClCompile Include="RansomwareTracer.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
@@ -455,6 +456,7 @@
     <ClInclude Include="Enum.h" />
     <ClInclude Include="Headers.h" />
     <ClInclude Include="MFCMain.h" />
+    <ClInclude Include="MSSQLMgr.h" />
     <ClInclude Include="RansomwareTracer.h" />
     <ClInclude Include="StringBuilder.h" />
     <ClInclude Include="StringEditor.h" />

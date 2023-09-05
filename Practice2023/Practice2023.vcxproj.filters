@@ -72,6 +72,9 @@
     <ClCompile Include="MFCMain.cpp">
       <Filter>00.main</Filter>
     </ClCompile>
+    <ClCompile Include="MSSQLMgr.cpp">
+      <Filter>98.Headers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPractice.h">
@@ -118,6 +121,9 @@
     </ClInclude>
     <ClInclude Include="MFCMain.h">
       <Filter>00.main</Filter>
+    </ClInclude>
+    <ClInclude Include="MSSQLMgr.h">
+      <Filter>98.Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
