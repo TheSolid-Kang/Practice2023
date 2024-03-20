@@ -126,4 +126,8 @@
       <Filter>98.Headers</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="텍스트.txt" />
+    <Text Include="텍스트1.txt" />
+  </ItemGroup>
 </Project>

@@ -461,6 +461,10 @@
     <ClInclude Include="StringBuilder.h" />
     <ClInclude Include="StringEditor.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="텍스트.txt" />
+    <Text Include="텍스트1.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
