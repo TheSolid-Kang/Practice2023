@@ -1,51 +1,141 @@
-
---dgv34 == 발주정보
---dgv39 == 처리내역
---dgv59 == 발주정보2
---dgv60 == 후공정 발주 정보
---dgv61 == 발주입고정보
---dgv35 == 입고내역
+1. 사용자 동기화 프로세스 3건
+2. 부서 동기화 프로세스 1건
+3. 권한그룹-조직그룹 동기화 프로세스 3건
+4. 장기 미사용자 관리 프로세스 2건
+5. 예외사항 처리 프로세스 1건
 
 
-1. '발주정보' 생성
-{
-  가. 입고번호에 해당하는 데이터를 조회 후 키값 오름차순(ASC) 정렬(MES.MAT_INCOMEHIST)
-}
 
-2. '처리내역' 생성
-{
-  가. '발주정보'의 첫 번째 행으로 지역변수 생성
-  --첫 번째 행을 사용하는 이유: 무조건 '발주정보'.INCOME_ID(입고구분)에서 '입고'가 붙은 행을 가져와야 하기 때문 
-  --'발주정보'.IMCOME_ID의 값이 '외주반출' 인 경우 방지 
-
-  나. '발주정보'의 첫 번째 행의 컬럼을 기준으로 '처리내역' 생성 
-    1) IF '발주정보'.IMCOME_ID == N'구매입고': yw_TPUDelvWMS_IF로 '처리내역' 생성
-    2) IF '발주정보'.IMCOME_ID == N'사내입고': yw_TLGInOutDailyWMS_IF로 '처리내역' 생성
-    3) IF '발주정보'.IMCOME_ID == N'외주입고, 기타입고, 기타입고(ERP(X))': yw_TPDOSPDelvWMS_IF로 '처리내역' 생성
-}
-
-3. '발주정보2' 생성
-{  
-  가. '발주정보'의 첫 번째 행의 컬럼을 기준으로 '발주정보2' 생성
-    1) IF '발주정보'.IMCOME_ID == N'구매입고': yw_TPUORDPOItemWMS_IF로 '발주정보2' 생성
-    2) IF '발주정보'.IMCOME_ID == N'사내입고': yw_TPDSFCWorkOrderWMS_IF로 '발주정보2' 생성
-    3) IF '발주정보'.IMCOME_ID == N'외주입고, 기타입고, 기타입고(ERP(X))': yw_TPDOSPPOItemWMS_IF로 '발주정보2' 생성
-}
-4. '후공정 발주 정보' 생성
-{
+1. 사용자 동기화 프로세스
+  가. AD동기화 프로그램 구현: ERP HR -> AD 계정 동기화 프로세스
+  이점1. AD계정 생성 업무 자동화
+  이점2. ERP 계정 정보와 AD 계정 정보를 대조하여 AD 계정 정보 수정하는 업무 자동화
+  * AD 동기화 프로그램-계정 동기화 프로세스 1회 실행
+    * ERP에서 인사팀이 사원 정보 신규 등록
+      * AD: NAC OU에 AD계정 생성
+      * AD: AD계정에 ERP 기초정보 기입
   
-}
-5. '발주입고정보' 생성
-{
+    *  ERP와 AD 대조 후 HR 정보 수정 감지 
+      * AD: NAC OU에 AD계정 수정
+      * AD: AD계정에 ERP 기초정보 수정
   
-}
-6. '입고내역' 생성
-{
+    * ERP에서 전산팀이 ERP 사용자 등록
+      * AD: 해당 AD계정 OU 이동 NAC OU -> HR OU
+      * AD: 해당 AD계정 UPN 입력
+      * AD: 해당 AD계정 도메인 변경
   
-}
-7. 컨트롤에 필요한 행 생성 
-{
+    * ERP에서 총무파트가 사원 내선번호 등록
+      * AD: 해당 AD계정의 내선번호 등록
   
-}
+  나. AD동기화 프로그램 구현: ERP 사원 퇴사처리 -> AD 계정 삭제 프로세스
+  이점1. ERP에서 퇴사처리 된 사원 AD계정 비활성화 업무 자동화
+  이점2. 퇴사 후 30일 AD계정 삭제 업무 자동화
+  * AD 동기화 프로그램-사원 퇴사처리 프로세스 1회 실행 
+    * ERP에서 사원 퇴사처리 확인
+      * AD: 퇴사처리 된 사원의 사번을 키값으로 NAC OU, HR OU 내 AD 계정 찾기
+      * AD: 해당 AD계정 비활성화 처리
+      * AD: 해당 AD계정 OU 이동: NAC OU -> Retirement OU
+  
+    * AD에서 Retirement OU 내의 계정 비활성화 후 30일 대기 완료 여부 확인
+      * AD: 해당 AD계정 삭제
+  
+  다. ERP 화면 구현: 사용자 영문명 우선 표기 부서 등록 프로세스
+  이점1. 특정 부서 AD 이름에 다른 표기방식 적용하는 업무 자동화
+  * ERP 화면-사용자 영문명 우선 표기 부서 등록 프로세스
+    * ERP: 표기방식 변경 부서 등록
+    * AD동기화프로그램: 등록 된 부서 한정 사용자 이름 표기변경 설정 적용
+    * AD: 해당 부서 사용자의 AD계정 이름 수정 
+
+
+
+2. 부서 동기화 프로세스
+  가. AD동기화 프로그램 구현: ERP 부서 -> AD 조직그룹 동기화 프로세스
+  이점1. AD 조직그룹과 ERP 부서의 트리구조 일치시키는 업무 자동화
+  * AD 연동 프로그램-ERP 부서 -> AD 조직그룹 동기화 프로세스 1회 실행
+    * AD: AD조직그룹의 소속그룹과 ERP 부서의 소속부서 대조
+      * AD: ERP 부서를 기준으로 AD조직그룹의 소속그룹 변경
+  
+    * ERP의 부서 내 사원 정보와 AD의 조직그룹 구성원 정보 대조
+      * AD: ERP 부서 내 사원 정보를 기준으로 AD조직그룹의 구성원 변경
+
+
+
+3. AD 권한그룹-조직그룹 동기화 프로세스
+  가. ERP 화면 구현: 권한그룹-조직그룹 등록 프로세스
+  나. ERP 화면 구현: 권한그룹-조직그룹 조회 프로세스
+  다. AD동기화 프로그램 구현: 권한그룹-조직그룹 자동 매칭 프로세스
+  EX) 권한그룹이 'DL_PDM_금형기술센터_R' 인 경우, 조직그룹 '금형기술센터'를 소속그룹으로 등록
+  * AD 연동 프로그램-권한그룹-조직그룹 자동 매칭 프로세스 1회 실행
+    * AD: 조직그룹명이 권한그룹명에 포함되는 경우 확인
+      * AD: 해당 권한그룹에 조직그룹 등록
+
+
+
+4. AD 장기 미사용자 관리 프로세스
+  가. AD동기화 프로그램 구현: 장기 미사용자(180일 이상) 확인 시 비활성화 프로세스
+  이점1. 장기미사용자 비활성화 업무 자동화
+  * AD동기화 프로그램-장기 미사용자(180일 이상) 확인 시 비활성화 프로세스 1회 실행
+    * AD: 전체 계정 비로그인 기간 확인
+    * AD: 비로그인 된 기간이 180일 이상인 계정 비활성화 처리
+
+  나. ERP 화면: 장기 미사용자 비활성화 예외처리 프로세스
+  이점1. 장기 미사용자 계정 중 특정 계정만 비활성화 예외처리 하는 업무 자동화
+  * ERP 화면-장기 미사용자 비활성화 예외처리 프로세스
+    * ERP: 장기 미사용자 비활성화 대상 AD계정 등록
+    * AD동기화프로그램: 등록된 AD계정 한정 활성화 설정 적용
+    * AD: 등록된 AD계정 활성화
+
+
+
+5. 예외사항 처리 프로세스
+  가. AD동기화 프로그램 구현: AD 동기화 실패 시 메일 알람 프로세스
+  이점1. LOG를 통해 AD동기화 프로그램 프로세스 점검
+  * AD 동기화프로그램-AD 동기화 실패 시 메일 알람 프로세스 1회 실행
+    * 사용자 동기화 프로세스 실행 LOG를 기반으로 ERROR 케이스 발생 시 실패 알람 발송
+    * 부서 동기화 프로세스 실행 LOG를 기반으로 ERROR 케이스 발생 시 실패 알람 발송
+    * AD 권한그룹-조직그룹 동기화 프로세스 실행 LOG를 기반으로 ERROR 케이스 발생 시 실패 알람 발송
+    * AD 장기 미사용자 관리 프로세스 실행 LOG를 기반으로 ERROR 케이스 발생 시 실패 알람 발송
+
+
+
+
+
+
+
+.
+
+
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_PRT_MES205_SCM_BOXLABEL]
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES205_CRUD]
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES205_CRUD_BOX_01]
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES205_CRUD_BOX_02]
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES205_CRUD_BOX_03]
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES205_CRUD_BOX_04]
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES205_CRUD_BOX_05]
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES205_CRUD_DELIVERY]
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES205_CRUD_ORDER]
+
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES211_CRUD]
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES211_CRUD_SCANCOMMIT]
+
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES215_CRUD]
+
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES228_CRUD]
+
+[YWPRMES11P].[YWPRS_SCM].[dbo].[SP_SET_MES229_CRUD]
+
+
+
+SELECT * FROM SCM_PORBOXHIST AS A WITH(NOLOCK)
+WHERE 1=1 
+	AND A.MAT_BOX_SID = N'08ZP2403S102902100'
+
+
+
+
+
+
+
+
 
 

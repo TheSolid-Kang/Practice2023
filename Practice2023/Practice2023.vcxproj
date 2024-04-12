@@ -462,6 +462,12 @@
     <ClInclude Include="StringEditor.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="240411_MES 회의_선행품질팀_신미례 대리님.txt" />
+    <Text Include="240411_MES 회의_자재팀_기연원 과장님 김정식 대리님.txt" />
+    <Text Include="240411_MES 회의_자재팀_기연원 과장님 김정식 대리님2.txt" />
+    <Text Include="AD동기화 프로그램 인터뷰.txt" />
+    <Text Include="서버접근제어.txt" />
+    <Text Include="신입사원 OJT.txt" />
     <Text Include="텍스트.txt" />
     <Text Include="텍스트1.txt" />
   </ItemGroup>
