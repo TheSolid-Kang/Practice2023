@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T05:38:16.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="SotTH5xGzj4SiH8FKlPN" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-15T06:48:11.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="jomREU6Uy3Pehn2saCp1" version="24.2.2" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="421" dy="1573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,7 +42,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1W7hlDghSzM9yavTwnq8-14" value="외주SCM납기정보등록&lt;br&gt;(협력사)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+        <mxCell id="1W7hlDghSzM9yavTwnq8-14" value="외주SCM납기정보등록&lt;br&gt;(구매팀)&lt;div&gt;: 납기일 협의&lt;br&gt;&lt;div&gt;-&amp;gt; 협력사에서 날짜 넣음.&lt;/div&gt;&lt;div&gt;-&amp;gt; 구매팀 확인대기&lt;/div&gt;&lt;div&gt;-&amp;gt; 구매팀 납기일 입력 == 조정완료&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="20" y="405" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1W7hlDghSzM9yavTwnq8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-2" source="1W7hlDghSzM9yavTwnq8-7" target="1W7hlDghSzM9yavTwnq8-14">
@@ -71,7 +71,7 @@
         <mxCell id="1W7hlDghSzM9yavTwnq8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="1W7hlDghSzM9yavTwnq8-6" target="1W7hlDghSzM9yavTwnq8-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1W7hlDghSzM9yavTwnq8-6" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;납품 프로세스&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1. MES 박스라벨 생성-출력-부착&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2. MES 파렛팅 라벨 생성-출력-부착&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="1W7hlDghSzM9yavTwnq8-6" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;납품 프로세스&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1. MES 박스라벨 생성&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2.같은 화면에서 박스 생기면 구매납품 등록&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;3. 구매납품확정 화면에서 확정해야 할 수주를&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;해당 수주검색하고 납품확정 클릭&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;4. 거래명세서 출력&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;5. MES 파렛팅 라벨 생성-출력-부착&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;가. 납품번호 or 주문관리번호로//납품번호로만 하는 게 제일 편함.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;나. 납품파렛트관리에서 검색&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;다. 파레트 생성&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;마. 구매납품 파렛팅&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;-&amp;gt; 납품번호넣고 검색&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;-&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="10" y="40" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1W7hlDghSzM9yavTwnq8-20" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="1W7hlDghSzM9yavTwnq8-16" target="1W7hlDghSzM9yavTwnq8-19">
@@ -103,7 +103,7 @@
         <mxCell id="77e6c97f196da883-5" value="자재팀" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="540" y="20" width="160" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-12" value="납품취소" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;verticalAlign=middle;" parent="77e6c97f196da883-5" vertex="1">
+        <mxCell id="77e6c97f196da883-12" value="&lt;div&gt;자재팀 or 조달파트에서 진행&lt;/div&gt;납품취소" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;verticalAlign=middle;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="30" y="60" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1W7hlDghSzM9yavTwnq8-36" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;자동창고-입고 프로세스&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-5">
