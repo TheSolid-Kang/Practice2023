@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T03:13:33.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="nJiCI3zjqcV9M-GR-QjT" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-15T03:14:49.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="rUwpF86pGheV9Ywo--_q" version="24.2.2" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1019" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1478" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,26 +91,26 @@
         <mxCell id="77e6c97f196da883-16" value="수입검사 통과" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="70" y="225" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-20" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
-          <mxGeometry x="70" y="335" width="80" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="77e6c97f196da883-5" value="자재팀" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="540" y="20" width="160" height="730" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-12" value="납품취소" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;verticalAlign=middle;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="30" y="60" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-23" value="자재 적재" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
+        <mxCell id="77e6c97f196da883-23" value="자동창고-입고" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="30" y="180" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="Lane 5" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="700" y="20" width="160" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="1W7hlDghSzM9yavTwnq8-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-6">
-          <mxGeometry x="10" y="460" width="140" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="77e6c97f196da883-7" value="Lane 6" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="860" y="20" width="160" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="1W7hlDghSzM9yavTwnq8-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="10" y="650" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-20" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-7" vertex="1">
+          <mxGeometry x="40" y="580" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1W7hlDghSzM9yavTwnq8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="1W7hlDghSzM9yavTwnq8-14" target="1W7hlDghSzM9yavTwnq8-6">
           <mxGeometry relative="1" as="geometry" />
@@ -157,6 +157,14 @@
               <mxPoint x="620" y="60" />
               <mxPoint x="350" y="60" />
               <mxPoint x="350" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1W7hlDghSzM9yavTwnq8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="1W7hlDghSzM9yavTwnq8-30" target="77e6c97f196da883-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="670" />
+              <mxPoint x="620" y="670" />
             </Array>
           </mxGeometry>
         </mxCell>
