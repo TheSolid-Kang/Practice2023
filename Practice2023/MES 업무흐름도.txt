@@ -1,27 +1,76 @@
+2 == _TPDOSPDelvInItem   외주입고
+3 == _TPDOSPDelvItem   외주납품
+4 == _TPDOSPPOItem   외주발주
+5 == _TPDSFCWorkOrder   작업지시
+6 == _TPDSFCWorkReport   생산실적
+9 == _TPUDelvInItem   구매입고
+10 == _TPUDelvItem   구매납품
+14 == _TLGInOutDailyItem   입출고
+15 == _TLGInOutReqItem   입출고요청
+18 == _TSLInvoiceItem   거래명세서(수출Invoice)
+19 == _TSLOrderItem   수주품목 == 수주(수출Order)
+20 == _TSLSalesItem   매출
+25 == _TPDMMOutItem   자재출고처리
+32 == _TPDMPSDailyProdPlan   주간일자별생산계획
+50 == _TPDOSPPOItemMat   외주발주자재
+
+FROM - > TO
+3 -> 2
+4 -> 3
+5 -> 4
+5 -> 6
+6 -> 23
+10 -> 9
+15 -> 14
+18 -> 20
+19 -> 18
+19 -> 32
+32 -> 5
+50 -> 25
+
+PROGRESS
+작업지시 -> 외주발주 -> 외주납품 -> 외주입고
+작업지시 -> 생산실적
+구매납품 -> 구매입고
+입출고요청 -> 입출고
+수주품목 == 수주(수출Order) -> 거래명세서(수출Invoice) -> 매출
+수주품목 == 수주(수출Order) -> 주간일자별생산계획 -> 작업지시
+외주발주자재 -> 자재출고처리
+
+
+TO TABLE SEQ
+2 == _TPDOSPDelvInItem   외주입고
+3 == _TPDOSPDelvItem   외주납품
+4 == _TPDOSPPOItem   외주발주
+14 == _TLGInOutDailyItem   입출고
+15 == _TLGInOutReqItem   입출고요청
+
+FROM -> TO
+3 -> 2
+4 -> 3
+15 -> 14
+
+PROGRESS
+발주 -> 입고 -> 납품 
+입출고요청 -> 입출고
 
 
 
 
+수주 -> 생산의뢰 -> 생산계획 -> 작업지시 -> 생산실적 -> 창고
+수주 -> 생산의뢰 -> 생산계획 -> 작업지시 -> 외주계획 -> 외주발주 -> 외주납품 -> 수입검사 -> 외주입고 -> 창고
+
+납품 과정에서 협력사가 SCM으로 박스라벨을 생성한다.
+외주발주는 담당자의 경험에 의존하는 
+//엑셀 계산은 뭔 소리지? 
 
 
 
 
-
-
-현재 프로세스
-
-납품중 -> 납품완료
-- 납품중일 때 협력사에서 파렛트 라벨 출력 가능
-
-
-
-
-
-
-
-
-
-
-
+키워드 
+1. BOM이 풀리다?
+2. 식별표
+3. 박스 라벨
+4. 
 
 
