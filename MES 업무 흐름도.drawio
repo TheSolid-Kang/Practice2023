@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T08:52:55.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lGmacFMipbH7wOzUN4OQ" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T08:53:38.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-xr5AD1xICiDpQFS7rh7" version="24.3.1" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2089" dy="1316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1919" dy="1236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,17 +12,6 @@
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="생산관리팀-조달파트" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="160" y="20" width="210" height="1030" as="geometry" />
-        </mxCell>
-        <mxCell id="1W7hlDghSzM9yavTwnq8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.428;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" parent="77e6c97f196da883-2" source="y9S3NXdiilQCgTe4i54k-60" target="y9S3NXdiilQCgTe4i54k-55" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="71" y="408" as="sourcePoint" />
-            <mxPoint x="71" y="458" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="99" y="180" />
-              <mxPoint x="99" y="250" />
-              <mxPoint x="95" y="250" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="1W7hlDghSzM9yavTwnq8-4" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;협력사 선정 프로세스&lt;br&gt;(담당자 경험)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="35" y="548" width="120" height="60" as="geometry" />
@@ -76,10 +65,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y9S3NXdiilQCgTe4i54k-55" value="발주 확정?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
-          <mxGeometry x="55" y="320" width="80" height="60" as="geometry" />
+          <mxGeometry x="58" y="320" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9S3NXdiilQCgTe4i54k-60" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;발주 프로세스&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; font-family: Verdana; background-color: initial;&quot;&gt;(외주계획조회_yw)&lt;br&gt;1. 사출팀, 후가공팀 발주 워크센터 변경&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; font-family: Verdana; background-color: initial;&quot;&gt;2. 발주수량 입력(구매로스 계산기 사용)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; font-family: Verdana; background-color: initial;&quot;&gt;3. 비고 특이사항 확인(생산계획입력yw)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; font-family: Verdana; background-color: initial;&quot;&gt;4. 조달담당자 발주 확정처리(외주발주품목조회)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="13" y="110" width="187" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iFIg4jF3lgUQqIhQEGWY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.483;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-2" source="y9S3NXdiilQCgTe4i54k-60" target="y9S3NXdiilQCgTe4i54k-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="97" y="250" />
+              <mxPoint x="97" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="협력사" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="370" y="20" width="200" height="1030" as="geometry" />
