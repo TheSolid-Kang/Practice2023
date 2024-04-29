@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T09:27:08.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="d4Ze1OWIXOvk3N9o8sr-" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T09:30:49.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="kpe1U9ofCFOLeAVziBLH" version="24.3.1" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2404" dy="1465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="y9S3NXdiilQCgTe4i54k-29" value="생산관리팀-계획파트" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="200" height="1030" as="geometry" />
         </mxCell>
-        <mxCell id="lvfCB4eY2tcOJgBGcnWr-2" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;발주 프로세스&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; font-family: Verdana; background-color: initial;&quot;&gt;(외주계획조회_yw)&lt;br&gt;1. 사출팀, 후가공팀 발주 워크센터 변경&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; font-family: Verdana; background-color: initial;&quot;&gt;2. 발주수량 입력(구매로스 계산기 사용)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; font-family: Verdana; background-color: initial;&quot;&gt;3. 비고 특이사항 확인(생산계획입력yw)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; font-family: Verdana; background-color: initial;&quot;&gt;4. 조달담당자 발주 확정처리(외주발주품목조회)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="y9S3NXdiilQCgTe4i54k-29">
-          <mxGeometry x="6.5" y="320" width="187" height="70" as="geometry" />
+        <mxCell id="lvfCB4eY2tcOJgBGcnWr-2" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;생산계획 생성 프로세스&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1. 수주정보 list up&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2. 완제품 기준 생산파트 구분&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;3. 각 파트 담당 수주대장 list up&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;(&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; font-family: Verdana; background-color: initial;&quot;&gt;생산계획 스케줄 파일에 팀별 스케줄 작성)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="y9S3NXdiilQCgTe4i54k-29">
+          <mxGeometry x="6.5" y="175" width="187" height="70" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="생산관리팀-조달파트" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="200" y="20" width="230" height="1030" as="geometry" />
@@ -77,16 +77,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvfCB4eY2tcOJgBGcnWr-7" value="전표등록&lt;div&gt;오류 발생?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="71" y="200" width="80" height="60" as="geometry" />
+        <mxCell id="lvfCB4eY2tcOJgBGcnWr-8" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#66B2FF;" edge="1" parent="77e6c97f196da883-2" source="lvfCB4eY2tcOJgBGcnWr-7" target="y9S3NXdiilQCgTe4i54k-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lvfCB4eY2tcOJgBGcnWr-7" value="외주생산?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="71" y="180" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9S3NXdiilQCgTe4i54k-56" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-2" source="y9S3NXdiilQCgTe4i54k-55" target="lvfCB4eY2tcOJgBGcnWr-4" edge="1">
           <mxGeometry x="0.8045" relative="1" as="geometry">
-            <mxPoint x="199.00000000000003" y="470" as="sourcePoint" />
-            <mxPoint x="511" y="380" as="targetPoint" />
+            <mxPoint x="154" y="470" as="sourcePoint" />
+            <mxPoint x="199.75" y="105" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="209" y="470" />
-              <mxPoint x="209" y="105" />
+              <mxPoint x="212" y="470" />
+              <mxPoint x="212" y="105" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -254,6 +257,9 @@
             <mxPoint x="769" y="510" as="sourcePoint" />
             <mxPoint x="949" y="531" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lvfCB4eY2tcOJgBGcnWr-9" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="77e6c97f196da883-1" source="lvfCB4eY2tcOJgBGcnWr-7" target="lvfCB4eY2tcOJgBGcnWr-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9S3NXdiilQCgTe4i54k-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-490" y="690" width="140" height="60" as="geometry" />
