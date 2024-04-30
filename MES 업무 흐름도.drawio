@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T08:37:01.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="EQLpk9_s7xvl3MYCilnG" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-30T08:37:59.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="EO2SEN1Ba_zjmlNDIzsI" version="24.3.1" type="github">
   <diagram name="전제 업무흐름도" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="3490" dy="1977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2534" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -188,7 +188,7 @@
         <mxCell id="XkpX4AWq3C42IbMwBVuc-37" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px; text-align: center;&quot;&gt;사출팀에서&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px; text-align: center; background-color: initial;&quot;&gt;회수 및 재생산 프로세스&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="lvfCB4eY2tcOJgBGcnWr-53">
           <mxGeometry x="59.5" y="350" width="191" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="XkpX4AWq3C42IbMwBVuc-43" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;생산 프로세스&lt;br&gt;1. 작업준비&amp;nbsp;&lt;br&gt;2. 원재료/부재료 요청&lt;br&gt;3. 생산 및 실적등록&lt;br&gt;4. 이동요청 출력, 전표출력&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="lvfCB4eY2tcOJgBGcnWr-53">
+        <mxCell id="XkpX4AWq3C42IbMwBVuc-43" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;제품출고 관리 프로세스&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1. 출고리스트 작성&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2. 전일 생산 된 제품 수량 및 위치 파악&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="lvfCB4eY2tcOJgBGcnWr-53">
           <mxGeometry x="85" y="430" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lvfCB4eY2tcOJgBGcnWr-59" value="후가공팀" style="swimlane;html=1;startSize=20;" parent="lvfCB4eY2tcOJgBGcnWr-17" vertex="1">
