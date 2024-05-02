@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T01:25:24.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="UpQdFXR0RiPXjYXhU2Mi" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T01:28:54.316Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pwVVunRueUMrdVYbqivw" version="24.3.1" type="github">
   <diagram name="전제 업무흐름도" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="3012" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="uqOfZayD8FsMnY-ltgmB-40" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;원단 발주 프로세스&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1. 현장에서 생산에 필요한 원단을 착색실에 요청&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;-&amp;gt; 특이사항 1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;반품 프로세스가 없음.(기타입고로 잡음)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;원단은 불량 발생 시 막교환 후 바로 공정투입&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;-&amp;gt; 특이사항 2. 원단 업체에서 반품 프로세스 수행할 역량 없음.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="uqOfZayD8FsMnY-ltgmB-1">
           <mxGeometry x="30" y="30" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqOfZayD8FsMnY-ltgmB-41" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;턴키품 프로세스&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;* 완제품&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1. 수입검사 진행&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2. 출하&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;* 반제품&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1. 입고(전산등록 X)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2. 튜브팀 조립&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;3. 출하&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="uqOfZayD8FsMnY-ltgmB-1">
+          <mxGeometry x="30" y="130" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lvfCB4eY2tcOJgBGcnWr-20" value="펌프, 용기" style="swimlane;html=1;startSize=20;" parent="lvfCB4eY2tcOJgBGcnWr-17" vertex="1">
           <mxGeometry x="280" y="20" width="280" height="1520" as="geometry" />
