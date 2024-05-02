@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T01:23:08.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="eXKPJIQh8KnX0wLVbG5Y" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T01:25:24.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="UpQdFXR0RiPXjYXhU2Mi" version="24.3.1" type="github">
   <diagram name="전제 업무흐름도" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2787" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3012" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -200,7 +200,7 @@
           <mxGeometry x="62" y="130" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lvfCB4eY2tcOJgBGcnWr-52" value="반송" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;verticalAlign=middle;" parent="lvfCB4eY2tcOJgBGcnWr-48" vertex="1">
-          <mxGeometry x="42" y="880" width="100" height="60" as="geometry" />
+          <mxGeometry x="42" y="960" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lvfCB4eY2tcOJgBGcnWr-53" value="사출팀, 금속팀" style="swimlane;html=1;startSize=20;" parent="lvfCB4eY2tcOJgBGcnWr-17" vertex="1">
           <mxGeometry x="1660" y="20" width="310" height="1520" as="geometry" />
@@ -266,21 +266,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvfCB4eY2tcOJgBGcnWr-73" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#66B2FF;" parent="lvfCB4eY2tcOJgBGcnWr-17" source="lvfCB4eY2tcOJgBGcnWr-37" target="XkpX4AWq3C42IbMwBVuc-13" edge="1">
+        <mxCell id="lvfCB4eY2tcOJgBGcnWr-73" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#66B2FF;" parent="lvfCB4eY2tcOJgBGcnWr-17" source="lvfCB4eY2tcOJgBGcnWr-37" target="XkpX4AWq3C42IbMwBVuc-13" edge="1">
           <mxGeometry x="0.8667" relative="1" as="geometry">
             <mxPoint x="210" y="1018" as="sourcePoint" />
             <mxPoint x="620" y="588" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1308" y="970" />
-              <mxPoint x="1309" y="1060" />
-              <mxPoint x="1639" y="1060" />
+              <mxPoint x="1639" y="930" />
               <mxPoint x="1639" y="350" />
               <mxPoint x="2645" y="350" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvfCB4eY2tcOJgBGcnWr-74" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;" parent="lvfCB4eY2tcOJgBGcnWr-17" source="lvfCB4eY2tcOJgBGcnWr-37" target="lvfCB4eY2tcOJgBGcnWr-52" edge="1">
+        <mxCell id="lvfCB4eY2tcOJgBGcnWr-74" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" parent="lvfCB4eY2tcOJgBGcnWr-17" source="lvfCB4eY2tcOJgBGcnWr-37" target="lvfCB4eY2tcOJgBGcnWr-52" edge="1">
           <mxGeometry x="0.7237" relative="1" as="geometry">
             <mxPoint x="120" y="968" as="sourcePoint" />
             <mxPoint as="offset" />
