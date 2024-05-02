@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T02:01:20.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nE-Rw0fLvra0hmQqGIJE" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T02:01:45.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="NoMynuz0FZp90oDhXPtp" version="24.3.1" type="github">
   <diagram name="전제 업무흐름도" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="3149" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -304,7 +304,7 @@
             <Array as="points">
               <mxPoint x="1639" y="930" />
               <mxPoint x="1639" y="350" />
-              <mxPoint x="2645" y="350" />
+              <mxPoint x="2955" y="350" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
