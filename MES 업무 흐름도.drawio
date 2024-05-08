@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T07:42:21.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="9FOCQLcvAyD-1OrU3UMh" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T08:12:13.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lbIdx49ByrredPg18qEA" version="24.3.1" type="github">
   <diagram name="전제 업무흐름도" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2056" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2089" dy="1359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,17 +101,18 @@
         <mxCell id="lvfCB4eY2tcOJgBGcnWr-20" value="펌프, 용기" style="swimlane;html=1;startSize=20;" parent="lvfCB4eY2tcOJgBGcnWr-17" vertex="1">
           <mxGeometry x="280" y="20" width="280" height="1970" as="geometry" />
         </mxCell>
-        <mxCell id="x_VAh8OjQokPqj9Za_kJ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lvfCB4eY2tcOJgBGcnWr-20" source="lvfCB4eY2tcOJgBGcnWr-21" target="x_VAh8OjQokPqj9Za_kJ-16" edge="1">
+        <mxCell id="8puDALR9XkkJ5Z-bRnY1-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lvfCB4eY2tcOJgBGcnWr-20" source="lvfCB4eY2tcOJgBGcnWr-21" target="x_VAh8OjQokPqj9Za_kJ-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lvfCB4eY2tcOJgBGcnWr-21" value="&lt;span style=&quot;background-color: initial; font-family: Verdana; font-size: 8px;&quot;&gt;용기,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Verdana; font-size: 8px;&quot;&gt;펌프(펌프, 플러스,에콘)&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Verdana; font-size: 8px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;물류파트 자재&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;투입&amp;nbsp;&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;프로세스&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;1. 물류 담당자가 수주대장 list up(생산계획) 확인&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;(수주대장 엑셀파일은 생산계획파트에서 생성)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-family: Verdana; font-size: 8px;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 8px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;BOM과 엑셀 작업지시를 비교하며 투입자재 확인&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;(자재가 입고됐는지 입고실적, 생산실적 확인 후&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;자재가 있다면 wms에서 자재 반출요청을 한다.)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px; background-color: initial;&quot;&gt;3. 각 파트의 물류 담당자가 대차이동으로 현장에 투입자재 전달&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="lvfCB4eY2tcOJgBGcnWr-20" vertex="1">
-          <mxGeometry x="22" y="370" width="237" height="100" as="geometry" />
+        <mxCell id="lvfCB4eY2tcOJgBGcnWr-21" value="&lt;span style=&quot;background-color: initial; font-family: Verdana; font-size: 8px;&quot;&gt;용기,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Verdana; font-size: 8px;&quot;&gt;펌프(펌프, 플러스,에콘)&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Verdana; font-size: 8px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;물류파트 자재&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;투입&amp;nbsp;&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;프로세스&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px; background-color: initial;&quot;&gt;각 파트의 물류 담당자가 &#39;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px; background-color: initial;&quot;&gt;수주대장 list up(생산계획) 파일&#39;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px; background-color: initial;&quot;&gt;확인 후 자동창고에 자재반출요청 및 출고처리&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-family: Verdana; font-size: 8px;&quot;&gt;2. 각 파트의 물류 담당자가 대차이동으로 현장에 투입자재 전달&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="lvfCB4eY2tcOJgBGcnWr-20" vertex="1">
+          <mxGeometry x="20.5" y="505" width="237" height="120" as="geometry" />
         </mxCell>
         <mxCell id="p5eEpcaX0zVZrQScbjed-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="lvfCB4eY2tcOJgBGcnWr-20" source="p5eEpcaX0zVZrQScbjed-9" target="p5eEpcaX0zVZrQScbjed-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="19" y="195" />
-              <mxPoint x="19" y="685" />
+              <mxPoint x="29" y="195" />
+              <mxPoint x="9" y="195" />
+              <mxPoint x="9" y="835" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -127,25 +128,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p5eEpcaX0zVZrQScbjed-16" value="불량발생?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="lvfCB4eY2tcOJgBGcnWr-20" vertex="1">
-          <mxGeometry x="99" y="670" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="p5eEpcaX0zVZrQScbjed-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lvfCB4eY2tcOJgBGcnWr-20" edge="1" target="p5eEpcaX0zVZrQScbjed-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="139" y="580" as="sourcePoint" />
-            <mxPoint x="140" y="670" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="98.5" y="820" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p5eEpcaX0zVZrQScbjed-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="lvfCB4eY2tcOJgBGcnWr-20" source="p5eEpcaX0zVZrQScbjed-20" target="p5eEpcaX0zVZrQScbjed-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p5eEpcaX0zVZrQScbjed-20" value="&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;불량 처리프로세스&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1. 추가트러블 띄움&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2. 트러블 만큼 투입자재 가져온 후 생산 진행&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="lvfCB4eY2tcOJgBGcnWr-20" vertex="1">
-          <mxGeometry x="39" y="800" width="201" height="60" as="geometry" />
+          <mxGeometry x="40" y="950" width="201" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x_VAh8OjQokPqj9Za_kJ-16" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;용기, 펌프(펌프, 플러스,에콘) 생산 프로세스&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1. 각 파트의 조장님들이 박스라벨 생성&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2. 워크센터에 라벨 전달&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;3. 생산 진행 및 실적처리&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;4. 품질에서 공정검사 진행&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="lvfCB4eY2tcOJgBGcnWr-20" vertex="1">
-          <mxGeometry x="22" y="510" width="238" height="90" as="geometry" />
+        <mxCell id="8puDALR9XkkJ5Z-bRnY1-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lvfCB4eY2tcOJgBGcnWr-20" source="x_VAh8OjQokPqj9Za_kJ-16" target="p5eEpcaX0zVZrQScbjed-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x_VAh8OjQokPqj9Za_kJ-16" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;용기, 펌프(펌프, 플러스,에콘) 생산 프로세스&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1. 각 파트의 조장님들이 박스라벨 생성&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;2. 워크센터에 라벨 전달&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;3. 생산 진행 및 실적처리&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;4. 각 파트의 품질 담당자가 공정검사 진행&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="lvfCB4eY2tcOJgBGcnWr-20" vertex="1">
+          <mxGeometry x="19.5" y="660" width="238" height="90" as="geometry" />
         </mxCell>
         <mxCell id="x_VAh8OjQokPqj9Za_kJ-19" value="&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;창고 이동 프로세스&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-family: Verdana; font-size: 8px;&quot;&gt;. MES에서 이동요청 및 이동 전표출력&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-family: Verdana; font-size: 8px;&quot;&gt;(MES의 &#39;자재이동 요청&#39; 화면에서 진행)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="lvfCB4eY2tcOJgBGcnWr-20" vertex="1">
-          <mxGeometry x="46.5" y="920" width="187" height="70" as="geometry" />
+          <mxGeometry x="45.5" y="1070" width="187" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8puDALR9XkkJ5Z-bRnY1-27" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;제품 사양 정보 일치화&amp;nbsp; 프로세스&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;(ERP-BOM, 영업-펌프,용기 제품사양서, 계획파트-수주대장listup)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;ERP-BOM 이슈: 김유나 과장님과 검토 후 수정&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;2. 영업-펌프, 용기 제품사양서 이슈: 영업 담당자와 검토 후 수정&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;3. 수주대장listup 파일 이슈: 계획파트의 담당자가 검토 후 수정&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="lvfCB4eY2tcOJgBGcnWr-20">
+          <mxGeometry x="29" y="330" width="237" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lvfCB4eY2tcOJgBGcnWr-22" value="청운, 하이큐" style="swimlane;html=1;startSize=20;" parent="lvfCB4eY2tcOJgBGcnWr-17" vertex="1">
           <mxGeometry x="560" y="20" width="310" height="1970" as="geometry" />
@@ -520,11 +521,12 @@
             <mxPoint x="459.0020000000003" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p5eEpcaX0zVZrQScbjed-13" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="lvfCB4eY2tcOJgBGcnWr-17" source="uqOfZayD8FsMnY-ltgmB-37" target="lvfCB4eY2tcOJgBGcnWr-21" edge="1">
+        <mxCell id="p5eEpcaX0zVZrQScbjed-13" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="lvfCB4eY2tcOJgBGcnWr-17" source="uqOfZayD8FsMnY-ltgmB-37" target="lvfCB4eY2tcOJgBGcnWr-21" edge="1">
           <mxGeometry x="0.7631" relative="1" as="geometry">
             <mxPoint x="328.99999999999955" y="400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="370" />
+              <mxPoint x="549" y="370" />
+              <mxPoint x="549" y="585" />
             </Array>
             <mxPoint as="offset" />
             <mxPoint x="935.5" y="355" as="sourcePoint" />
