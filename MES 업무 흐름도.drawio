@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T07:56:21.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="IO6f_cPjQ6ObMH40fMNY" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T00:32:55.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="WxSgOoon6_7xtjbAPV9i" version="24.3.1" type="github">
   <diagram name="전제 업무흐름도" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1729" dy="1833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="6836" dy="3802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -282,15 +282,6 @@
         </mxCell>
         <mxCell id="uqOfZayD8FsMnY-ltgmB-44" value="금속팀" style="swimlane;html=1;startSize=20;" parent="lvfCB4eY2tcOJgBGcnWr-17" vertex="1">
           <mxGeometry x="1660" y="20" width="310" height="1970" as="geometry" />
-        </mxCell>
-        <mxCell id="uqOfZayD8FsMnY-ltgmB-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="uqOfZayD8FsMnY-ltgmB-44" source="uqOfZayD8FsMnY-ltgmB-46" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="161.98" y="940" />
-              <mxPoint x="161.98" y="940" />
-            </Array>
-            <mxPoint x="162.04761904761926" y="1000.0507142857145" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="uqOfZayD8FsMnY-ltgmB-46" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;생산 프로세스 1. 원재료 조달&lt;br&gt;1. 작업지시 확인&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;2.&amp;nbsp;&lt;span style=&quot;font-family: Verdana;&quot;&gt;생산계획 생성&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; background-color: initial; font-family: Verdana;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;조달파트 이동희 과장님과 생산계획 생성)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;3. 원재료/부재료 요청&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;4. 수입검사팀이 수입검사 진행&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=11;fontFamily=Helvetica;" parent="uqOfZayD8FsMnY-ltgmB-44" vertex="1">
           <mxGeometry x="20" y="942.5" width="270" height="85" as="geometry" />
