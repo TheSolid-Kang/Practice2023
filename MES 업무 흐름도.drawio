@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T01:48:57.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8xtrpECChqZz0_cLutiA" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T07:06:17.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="lyJQred0nMUPccwNBVE0" version="24.5.3" type="github">
   <diagram name="전제 업무흐름도" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1942" dy="1350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2321" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,7 +323,7 @@
         <mxCell id="lvfCB4eY2tcOJgBGcnWr-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lvfCB4eY2tcOJgBGcnWr-53" source="lvfCB4eY2tcOJgBGcnWr-55" target="lvfCB4eY2tcOJgBGcnWr-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lvfCB4eY2tcOJgBGcnWr-55" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;생산 프로세스&lt;br&gt;1. 작업지시 확인&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;2.&amp;nbsp;&lt;span style=&quot;font-family: Verdana;&quot;&gt;생산계획 생성&lt;/span&gt;&amp;nbsp;&lt;br&gt;3. 원재료/부재료 요청&lt;br&gt;4. 생산 및 실적등록&lt;br&gt;5. 이동요청 출력, 전표출력&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=11;fontFamily=Helvetica;" parent="lvfCB4eY2tcOJgBGcnWr-53" vertex="1">
+        <mxCell id="lvfCB4eY2tcOJgBGcnWr-55" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;생산 프로세스&lt;br&gt;1. 작업지시 확인&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;-&amp;gt; 행 선택 후 mes 전송 -&amp;gt; mes에서 수신&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;2.&amp;nbsp;&lt;span style=&quot;font-family: Verdana;&quot;&gt;생산계획 생성&lt;/span&gt;&amp;nbsp;&lt;br&gt;3. 원재료/부재료 요청&lt;br&gt;4. 생산 및 실적등록&lt;br&gt;5. 이동요청 출력, 전표출력&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=11;fontFamily=Helvetica;" parent="lvfCB4eY2tcOJgBGcnWr-53" vertex="1">
           <mxGeometry x="87" y="590" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lvfCB4eY2tcOJgBGcnWr-56" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#66B2FF;" parent="lvfCB4eY2tcOJgBGcnWr-53" source="lvfCB4eY2tcOJgBGcnWr-57" target="lvfCB4eY2tcOJgBGcnWr-58" edge="1">
