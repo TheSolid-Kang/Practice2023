@@ -158,5 +158,14 @@
     <Text Include="240514_MES 회의_영림원_김동준 차장님, 신희범 컨설턴트님.txt" />
     <Text Include="240514_MES 회의_생산계획파트_엄요한 과장님.txt" />
     <Text Include="240516_MES 회의_사출팀_김형권 과장님.txt" />
+    <Text Include="240522_MES 회의_튜브팀_김수빈 과장님, 양희진 사원님.txt" />
+    <Text Include="240529_MES 회의_CJ 이인규님 김범신님.txt" />
+    <Text Include="240612_MES회의_컨설팅_계획파트.txt" />
+    <Text Include="240612_MES회의_컨설팅_조달파트.txt" />
+    <Text Include="240617_MES회의_컨설팅_품질팀.txt" />
+    <Text Include="240617_MES회의_컨설팅_사출팀.txt" />
+    <Text Include="240619_MES회의_컨설팅_튜브팀.txt" />
+    <Text Include="240619_MES회의_컨설팅_용기팀.txt" />
+    <Text Include="240620_MES회의_컨설팅_자재팀.txt" />
   </ItemGroup>
 </Project>
